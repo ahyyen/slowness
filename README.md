@@ -1,1 +1,3 @@
-# slowness
+A web-based interactive narrative presented as a conversation between my current self and an imagined future self living in the year 2035. The content is guided by a semester of deep exploration into the concepts of neoliberalism and how the sociopolitical climate it fosters impacts the way we perform our identity. This project presents a hopeful vision of how we might persevere in such a precarious and competitive world, and take small steps toward building a community around shared love and care.
+
+Project created by Allison Yen, Spring 2025

@@ -1,0 +1,130 @@
+
+body {
+  font-family: "Oxanium", sans-serif;
+  font-size: 18px;
+  color: white;
+/*   background-color: var(--color-bg); */
+  background-image: linear-gradient(black, #081866, #6F2673);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  line-height: 200%;
+/*   margin: 30px; */
+}
+
+.dark{
+  background-color: black;
+  background-image: none;
+  text-align: center;
+  padding: 70px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 85px;
+  text-align: center;
+  line-height: 105%;
+  margin-top: 20vh;
+}
+
+.wrapper{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.pagewrap{
+  margin: 15vh 10vw;
+}
+
+h2{
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.intro{
+  text-align: center;
+  font-size: 15px;
+/*   line-height: 25px; */
+}
+
+#startbutton{
+  font-size:25px;
+}
+
+.proj_info{
+/*   border: 2px solid red; */
+  padding: 40px 15px;
+}
+
+summary {
+  outline: none;
+}
+
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.presentclick{
+  color: white;
+  font-family: "Schoolbell", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.presentclick:hover{
+  color: #21c8ff;
+  text-decoration: underline;
+}
+
+.present {
+  font-family: "Schoolbell", sans-serif;
+  font-size: 20px;
+}
+
+.futureclick{
+  color: white;
+  font-family: "Oxanium", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.futureclick:hover{
+  color: #21c8ff;
+  text-decoration: underline;
+}
+
+.perf_option{
+  display: grid;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+/*   border: 1px solid yellow; */
+}
+.success_option{
+  display: grid;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px;
+/*   border: 1px solid yellow; */
+}
+
+.item{
+  margin: 12px 22px;
+/*   border: 2px solid blue; */
+}
+
+canvas {
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: -1;
+/*   border: 3px solid red; */
+}
